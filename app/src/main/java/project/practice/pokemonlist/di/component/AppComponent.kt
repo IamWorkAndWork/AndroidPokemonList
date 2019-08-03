@@ -5,6 +5,7 @@ import project.practice.pokemonlist.di.module.NetworkModule
 import project.practice.pokemonlist.di.module.PokemonUsecaseModule
 import project.practice.pokemonlist.di.module.RepositoryModule
 import project.practice.pokemonlist.di.scope.AppScope
+import project.practice.pokemonlist.di.subcomponent.PokemonDetailsComponent
 import project.practice.pokemonlist.di.subcomponent.PokemonListComponent
 
 @AppScope
@@ -19,4 +20,5 @@ interface AppComponent {
     fun newPokemonListComponent(): PokemonListComponent
 
 
+    fun newPokemonDetailsComponent(): PokemonDetailsComponent
 }

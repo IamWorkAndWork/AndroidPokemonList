@@ -9,5 +9,5 @@ import project.practice.pokemonlist.viewmodel.ViewModelFactory
 abstract class ViewModelFactoryModule {
 
     @Binds
-    internal abstract fun bindViewModelFactory(factry: ViewModelFactory): ViewModelProvider.Factory
+    internal abstract fun bindViewModelFactory(factory: ViewModelFactory): ViewModelProvider.Factory
 }

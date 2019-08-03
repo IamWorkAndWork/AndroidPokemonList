@@ -14,9 +14,4 @@ class MainActivity : BaseActivity() {
         supportFragmentManager.beginTransaction().replace(R.id.container, pokemonListFragment).commit()
     }
 
-    override fun initViewModel() {
-    }
-
-    override fun iniListener() {
-    }
 }
